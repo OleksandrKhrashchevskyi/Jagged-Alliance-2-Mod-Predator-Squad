@@ -6,6 +6,28 @@
 
 31 operators from the four films. Stats are on the JA2 1.13 scale (0-100), the day rate is in dollars. Traits use the 1.13 new trait system.
 
+**It's free.** No price, no ads, no sign-up. *Downloads are strictly for true fans only* — if you can still quote Dutch and know which Loonie hates Traeger, you qualify. 😏
+
+> [!CAUTION]
+> **Selling this mod is strictly forbidden!** The mod was created by a fan of **Jagged Alliance 2** and the **Predator** films, for the fans. It is free and must stay free: do not sell it, do not bundle it into paid packs and do not put it behind a paywall. If someone charged you for it, you were scammed. See [License](LICENSE).
+
+> [!WARNING]
+> **After downloading, check the files for viruses!** Before running any `.exe` you got from the internet — `ja2pt.exe` included — upload it to an online multi-engine scanner:
+>
+> - [MetaDefender](https://metadefender.com/) — scans the file with dozens of antivirus engines at once
+> - [VirusTotal](https://www.virustotal.com/) — 70+ antivirus engines and URL/file reputation
+> - [Hybrid Analysis](https://www.hybrid-analysis.com/) — scan plus sandbox run showing what the file does
+> - [Jotti's malware scan](https://virusscan.jotti.org/) — free scan with a set of popular engines
+>
+> Get the mod only from the [Releases](../../releases) page of this repository. See [Security policy](SECURITY.md).
+
+<p align="center">
+  <img src="docs/gif/backup.gif" alt="Back up your game first: copy Data-1.13, SavedGames and Ja2.ini somewhere safe" width="100%">
+</p>
+
+> [!IMPORTANT]
+> **Back up your game before installing the mod!** The mod is unpacked straight into your game folder: files with the same names are overwritten, and the game's settings may need changes in `Ja2.ini`. The stock `Data-1.13` is not touched, but things can always go wrong. Before you start, copy your whole game folder (at least `Data-1.13`, `SavedGames` and `Ja2.ini`) somewhere safe — just in case. Saves from older versions of the mod do not work in newer ones.
+
 ## About the mod
 
 **The Predator Team** replaces A.I.M. and M.E.R.C. with one mercenary outfit: 31 operators from *Predator 1987*, *Predator 1990*, *Predators 2010* and *The Predator 2018*. All standard mercs are gone; the story of Arulco works as usual.
@@ -821,11 +843,27 @@ Click a stat to see all 31 mercenaries ranked from highest to lowest.
 
 </details>
 
-## Community
+## 💬 Community
 
-- [Code of Conduct](CODE_OF_CONDUCT.md)
-- [Contributing](CONTRIBUTING.md)
-- [Security policy](SECURITY.md)
+<p align="center"><img src="docs/gif/community.gif" alt="Community: The Bear's Pit, Discord, Facebook, GitHub Discussions" width="100%"></p>
+
+Questions, ideas, mods and talk about Jagged Alliance 2 — come and join the fans:
+
+<p align="center">
+  <a href="https://thepit.ja-galaxy-forum.com/"><img src="https://img.shields.io/badge/The_Bear%27s_Pit-JA_Galaxy_Forum-8b5a2b?style=for-the-badge" alt="The Bear's Pit — JA Galaxy Forum"></a>
+  <a href="https://discord.com/invite/Ku2H9Hf"><img src="https://img.shields.io/badge/Discord-Join_the_chat-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="https://www.facebook.com/bearspit"><img src="https://img.shields.io/badge/Facebook-The_Bear%27s_Pit-1877F2?style=for-the-badge&logo=facebook&logoColor=white" alt="Facebook — The Bear's Pit"></a>
+  <a href="../../discussions"><img src="https://img.shields.io/badge/Discussions-Ask_%26_share-2ea44f?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Discussions"></a>
+</p>
+
+- **[The Bear's Pit — JA Galaxy Forum](https://thepit.ja-galaxy-forum.com/)** — the home of Jagged Alliance 2 and 1.13 modding: mods, maps, tools and help.
+- **[Discord](https://discord.com/invite/Ku2H9Hf)** — chat with other players and modders.
+- **[Facebook — The Bear's Pit](https://www.facebook.com/bearspit)** — news and posts from The Bear's Pit community on Facebook.
+- **[GitHub Discussions](../../discussions)** — ask a question, share an idea or show your squad right here in the repository: press **New discussion**.
+  - Mod creator: [`oleksandr1024`](https://discord.com/users/660456590364901387)
+  - Server admins: [`kitty624`](https://discord.com/users/485597085496901633), [`papa_bear2842`](https://discord.com/users/348550304557563905), [`h_world_37628`](https://discord.com/users/1407768046956839042), [`tais0001`](https://discord.com/users/118450058780868613), [`marco6326`](https://discord.com/users/201429346240430080), [`asdow5338`](https://discord.com/users/484390622040686592)
+
+Before you post, read the [Code of Conduct](CODE_OF_CONDUCT.md). Want to help? See [Contributing](CONTRIBUTING.md). Found a security problem? See the [Security policy](SECURITY.md).
 
 ## License
 
