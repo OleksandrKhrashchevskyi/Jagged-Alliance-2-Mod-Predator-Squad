@@ -21,13 +21,13 @@
 
 | ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 0 | **Dutch (Alan "Dutch" Schaefer)** | Major. Team leader, rescue specialist | 9 | $8,500 | Squadleader, Stealthy, Survival | Colt M16A1 |
-| 1 | **Mac (Mac Eliot)** | Sergeant. Machine gunner, Blain's best friend | 7 | $5,000 | Auto Weapons, Melee, Night Ops | M60E3 |
-| 2 | **Blain (Blain Cooper)** | Sergeant. Heavy weapons, minigun | 7 | $4,800 | Heavy Weapons, Auto Weapons, Bodybuilding | Rheinmetall MG3 |
-| 3 | **Billy (Billy Sole)** | Scout and tracker | 8 | $5,800 | Ranger, Scouting, Melee | Colt M16A1 |
-| 4 | **Poncho (Jorge "Poncho" Ramirez)** | Grenadier, interpreter | 7 | $4,600 | Heavy Weapons, Demolitions, Throwing | Milkor MGL-140 Grenade Launcher |
-| 5 | **Hawkins (Rick Hawkins)** | Radio operator, technician | 6 | $3,500 | Technician, Radio Operator, Scouting | Colt M16A1 |
-| 6 | **Dillon (Al Dillon)** | CIA officer, old friend of Dutch | 7 | $5,500 | Auto Weapons, Covert Ops, Athletics | HK MP5A4 |
+| 0 | **Dutch**<br><sub>Alan "Dutch" Schaefer</sub> | Major. Team leader, rescue specialist | 9 | $8,500 | Squadleader, Stealthy, Survival | Colt M16A1 |
+| 1 | **Mac**<br><sub>Mac Eliot</sub> | Sergeant. Machine gunner, Blain's best friend | 7 | $5,000 | Auto Weapons, Melee, Night Ops | M60E3 |
+| 2 | **Blain**<br><sub>Blain Cooper</sub> | Sergeant. Heavy weapons, minigun | 7 | $4,800 | Heavy Weapons, Auto Weapons, Bodybuilding | Rheinmetall MG3 |
+| 3 | **Billy**<br><sub>Billy Sole</sub> | Scout and tracker | 8 | $5,800 | Ranger, Scouting, Melee | Colt M16A1 |
+| 4 | **Poncho**<br><sub>Jorge "Poncho" Ramirez</sub> | Grenadier, interpreter | 7 | $4,600 | Heavy Weapons, Demolitions, Throwing | Milkor MGL-140 Grenade Launcher |
+| 5 | **Hawkins**<br><sub>Rick Hawkins</sub> | Radio operator, technician | 6 | $3,500 | Technician, Radio Operator, Scouting | Colt M16A1 |
+| 6 | **Dillon**<br><sub>Al Dillon</sub> | CIA officer, old friend of Dutch | 7 | $5,500 | Auto Weapons, Covert Ops, Athletics | HK MP5A4 |
 
 </div>
 
@@ -39,13 +39,13 @@
 
 | ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 7 | **Harrigan (Mike Harrigan)** | LAPD lieutenant. Stubborn, fearless leader | 8 | $7,000 | Squadleader, Gunslinger, Athletics | SPAS-12 |
-| 8 | **Leona (Leona Cantrell)** | LAPD detective. Tough, fast with a SMG | 5 | $3,200 | Auto Weapons, Gunslinger, Athletics | HK MP5KA4 |
-| 9 | **Danny (Danny Archuleta)** | LAPD detective. Harrigan's oldest friend | 4 | $2,400 | Gunslinger, Scouting, Athletics | Beretta 92F |
-| 10 | **Lambert (Jerry Lambert)** | LAPD detective. Cocky newcomer with a shotgun | 5 | $2,800 | Ranger, Bodybuilding, Melee | Remington M870 |
-| 11 | **Keyes (Peter Keyes)** | Federal agent. Head of a special task force | 6 | $5,000 | Squadleader, Technician, Night Ops | HK MP5KA4 |
-| 12 | **Willie (King Willie)** | Gang boss and mystic. Sees what others miss | 4 | $2,500 | Squadleader, Melee, Covert Ops | Barracuda |
-| 13 | **Heinemann (Phil Heinemann)** | LAPD deputy chief. Commander and organiser | 4 | $2,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
+| 7 | **Harrigan**<br><sub>Mike Harrigan</sub> | LAPD lieutenant. Stubborn, fearless leader | 8 | $7,000 | Squadleader, Gunslinger, Athletics | SPAS-12 |
+| 8 | **Leona**<br><sub>Leona Cantrell</sub> | LAPD detective. Tough, fast with a SMG | 5 | $3,200 | Auto Weapons, Gunslinger, Athletics | HK MP5KA4 |
+| 9 | **Danny**<br><sub>Danny Archuleta</sub> | LAPD detective. Harrigan's oldest friend | 4 | $2,400 | Gunslinger, Scouting, Athletics | Beretta 92F |
+| 10 | **Lambert**<br><sub>Jerry Lambert</sub> | LAPD detective. Cocky newcomer with a shotgun | 5 | $2,800 | Ranger, Bodybuilding, Melee | Remington M870 |
+| 11 | **Keyes**<br><sub>Peter Keyes</sub> | Federal agent. Head of a special task force | 6 | $5,000 | Squadleader, Technician, Night Ops | HK MP5KA4 |
+| 12 | **Willie**<br><sub>King Willie</sub> | Gang boss and mystic. Sees what others miss | 4 | $2,500 | Squadleader, Melee, Covert Ops | Barracuda |
+| 13 | **Heinemann**<br><sub>Phil Heinemann</sub> | LAPD deputy chief. Commander and organiser | 4 | $2,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
 
 </div>
 
@@ -60,8 +60,8 @@
 | 14 | **Royce** | Mercenary leader, ex-special forces | 8 | $7,000 | Auto Weapons, Survival, Stealthy | USAS-12 |
 | 15 | **Isabelle** | IDF sniper | 7 | $6,000 | Sniper (expert), Stealthy | Dragunov SVD |
 | 16 | **Edwin** | Doctor | 4 | $2,800 | Doctor (expert) | Beretta 92F |
-| 17 | **Stans (Walter Stans)** | Death row convict | 4 | $1,800 | Martial Arts, Melee, Bodybuilding | Beretta 93R |
-| 18 | **Noland (Ronald Noland)** | Survivor of earlier hunts | 7 | $4,500 | Ranger, Survival, Stealthy | Ingram M10 |
+| 17 | **Stans**<br><sub>Walter Stans</sub> | Death row convict | 4 | $1,800 | Martial Arts, Melee, Bodybuilding | Beretta 93R |
+| 18 | **Noland**<br><sub>Ronald Noland</sub> | Survivor of earlier hunts | 7 | $4,500 | Ranger, Survival, Stealthy | Ingram M10 |
 | 19 | **Cuchillo** | Cartel enforcer | 5 | $2,800 | Auto Weapons, Melee, Throwing | Uzi |
 | 20 | **Nikolai** | Spetsnaz soldier, heavy weapons | 7 | $5,200 | Heavy Weapons, Auto Weapons, Bodybuilding | PKM |
 | 21 | **Hanzo** | Yakuza enforcer, swordsman | 7 | $4,800 | Martial Arts, Melee, Stealthy | Katana |
@@ -77,14 +77,14 @@
 
 | ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 23 | **Quinn (Quinn McKenna)** | Army Ranger sniper. Leader of the "Loonies" | 8 | $7,500 | Sniper, Stealthy, Survival | M40A1 |
-| 24 | **Nebraska (Nebraska Williams)** | Veteran soldier. Quinn's right hand | 7 | $5,200 | Auto Weapons, Melee, Athletics | HK 53A3 |
+| 23 | **Quinn**<br><sub>Quinn McKenna</sub> | Army Ranger sniper. Leader of the "Loonies" | 8 | $7,500 | Sniper, Stealthy, Survival | M40A1 |
+| 24 | **Nebraska**<br><sub>Nebraska Williams</sub> | Veteran soldier. Quinn's right hand | 7 | $5,200 | Auto Weapons, Melee, Athletics | HK 53A3 |
 | 25 | **Baxley** | Ex-soldier. Rifleman, nervous tic, foul mouth | 6 | $3,800 | Auto Weapons, Throwing, Bodybuilding | Ruger Mini-14 |
 | 26 | **Coyle** | Ex-soldier. Squad joker, Baxley's best friend | 6 | $3,600 | Auto Weapons, Throwing, Athletics | HK MP5KA4 |
 | 27 | **Lynch** | Ex-soldier. Card sharp and demolitions man | 6 | $3,800 | Technician, Demolitions, Ambidextrous | Remington M870 |
 | 28 | **Nettles** | Former military helicopter pilot | 5 | $3,200 | Technician, Radio Operator, Scouting | SPAS-12 |
-| 29 | **Casey (Casey Bracket)** | Evolutionary biologist. Science advisor | 4 | $3,000 | Doctor, Teaching, Survival | .38 Special |
-| 30 | **Traeger (Will Traeger)** | Government agent. Head of a secret program | 6 | $5,500 | Squadleader, Covert Ops, Ambidextrous | Glock 17 |
+| 29 | **Casey**<br><sub>Casey Bracket</sub> | Evolutionary biologist. Science advisor | 4 | $3,000 | Doctor, Teaching, Survival | .38 Special |
+| 30 | **Traeger**<br><sub>Will Traeger</sub> | Government agent. Head of a secret program | 6 | $5,500 | Squadleader, Covert Ops, Ambidextrous | Glock 17 |
 
 </div>
 
