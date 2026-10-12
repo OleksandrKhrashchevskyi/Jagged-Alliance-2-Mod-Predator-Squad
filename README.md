@@ -6,6 +6,26 @@
 
 31 operators from the four films. Stats are on the JA2 1.13 scale (0-100), the day rate is in dollars. Traits use the 1.13 new trait system.
 
+## About the mod
+
+**The Predator Team** replaces A.I.M. and M.E.R.C. with one mercenary outfit: 31 operators from *Predator 1987*, *Predator 1990*, *Predators 2010* and *The Predator 2018*. All standard mercs are gone; the story of Arulco works as usual.
+
+- 🎯 **31 operators** with stats, skill traits, day rates and starting kits based on their roles in the films. The leaders and commandos are at the top; cops, doctors and civilians are where they belong.
+- 🔫 **Film weapons**: Dutch's M16A1 with M203, Blain's MG3, Poncho's MGL-140, Harrigan's SPAS-12, Isabelle's SVD, Hanzo's katana, Quinn's M40A1 and more.
+- 🤝 **Friends and enemies** from the films: Mac and Blain, Coyle and Baxley, Royce and Isabelle - and Harrigan against Keyes, the Loonies against Traeger.
+- 🎙️ **Own voice lines** for every operator: greeting, small talk, answering machine, contract (test voices for now, real recordings are coming).
+- 💻 **The Predator Team site** on the laptop instead of A.I.M.: animated pages, dossiers, a sortable roster, compare, radio checks, Intel with a live Ops Map of Arulco, and the **Base** with a squad planner, medals, a thermal hunt mini-game, a quiz and 20 field tools.
+- 🔥 **Hunter View**: look at the whole site through heat vision. And keep an eye on the screen - something cloaked crosses it now and then.
+- 🧩 **Safe install**: the mod runs from its own `Data-Predator` folder with its own `ja2pt.exe`; the stock `Data-1.13` is not touched.
+
+## Installation
+
+1. You need **Jagged Alliance 2 v1.13**. Make a **copy** of your game folder first.
+2. Download `JA2-PredatorTeam.zip` from [Releases](../../releases) and unpack it into the game folder.
+3. Start the game with **`ja2pt.exe`** and begin a **new game**. Saves from older versions of the mod are not compatible.
+
+`README.txt` in the archive has the details; `voices.txt` and `PredatorTeam_phrases.txt` list the voice files and their lines.
+
 ## By film
 
 - **Predator 1987**: Dutch, Mac, Blain, Billy, Poncho, Hawkins, Dillon
@@ -608,3 +628,205 @@ Click a stat to see all 31 mercenaries ranked from highest to lowest.
 </div>
 
 </details>
+
+## Screenshots
+
+56 screenshots of The Predator Team site on the in-game laptop. Click a section to open it.
+
+<details open>
+<summary><b>Front page</b> · 3</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/001-home.webp"><img src="docs/img/001-home.webp" alt="The Predator Team - front page" width="100%"></a><br><sub><b>001 - Front page.</b> The site of The Predator Team on the in-game laptop: seven sections, operator of the day, news ticker, live status band, radar and the "clients served" counter.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/002-hunter-view.webp"><img src="docs/img/002-hunter-view.webp" alt="Hunter View" width="100%"></a><br><sub><b>002 - Hunter View.</b> One click shows the whole site through the hunter's heat vision, with the mask display and the three-dot sight following the mouse.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/003-operator-of-the-day.webp"><img src="docs/img/003-operator-of-the-day.webp" alt="Operator of the day" width="100%"></a><br><sub><b>003 - Operator of the day.</b> A new operator every game day, the time in Arulco and tonight's moon. A click opens the file.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>The Team (hiring)</b> · 3</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/004-the-team-sort.webp"><img src="docs/img/004-the-team-sort.webp" alt="The Team - sort page" width="100%"></a><br><sub><b>004 - The Team.</b> All operators sorted by any stat, filter by film: 1987, 1990, 2010, 2018.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/005-the-team-faces.webp"><img src="docs/img/005-the-team-faces.webp" alt="The Team - faces" width="100%"></a><br><sub><b>005 - Mug shots.</b> 31 operators from the four Predator films.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/006-personal-file-hire.webp"><img src="docs/img/006-personal-file-hire.webp" alt="Personal file" width="100%"></a><br><sub><b>006 - Personal file.</b> Stats, story, gear kit and the contract: hire by video link like in A.I.M.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Services, Rates, Contact</b> · 3</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/007-services.webp"><img src="docs/img/007-services.webp" alt="Services" width="100%"></a><br><sub><b>007 - Services.</b> What the team does - and what it does not do.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/008-rates-calculator.webp"><img src="docs/img/008-rates-calculator.webp" alt="Rates and the contract calculator" width="100%"></a><br><sub><b>008 - Rates.</b> Contract calculator: pick an operator, 1 day / 1 week / 2 weeks, with or without gear, squad bonus and medical deposit.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/009-contact-sitrep.webp"><img src="docs/img/009-contact-sitrep.webp" alt="Contact and SITREP" width="100%"></a><br><sub><b>009 - Contact.</b> Live SITREP of every operator on contract: where, health, energy, morale, days left.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Roster</b> · 11</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/010-roster.webp"><img src="docs/img/010-roster.webp" alt="Roster" width="100%"></a><br><sub><b>010 - Roster.</b> The whole team in one table, sortable by every column, filters by film and your shortlist.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/011-roster-card.webp"><img src="docs/img/011-roster-card.webp" alt="Roster card" width="100%"></a><br><sub><b>011 - Roster card.</b> Rest the mouse on a row: big portrait and role.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/012-dossier-file.webp"><img src="docs/img/012-dossier-file.webp" alt="Dossier - file" width="100%"></a><br><sub><b>012 - Dossier.</b> Story, field notes and stats, typed in like a real file.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/013-dossier-record.webp"><img src="docs/img/013-dossier-record.webp" alt="Dossier - service record" width="100%"></a><br><sub><b>013 - Service record.</b> Days, battles, kills, wounds and awards in your campaign.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/014-dossier-friends.webp"><img src="docs/img/014-dossier-friends.webp" alt="Dossier - friends" width="100%"></a><br><sub><b>014 - Friends.</b> Who the operator trusts, who he cannot stand - and what it means for your team now.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/015-dossier-kit.webp"><img src="docs/img/015-dossier-kit.webp" alt="Dossier - kit" width="100%"></a><br><sub><b>015 - Kit.</b> Every gear kit with weight; the weapon from the film is marked red.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/016-dossier-stat-rank.webp"><img src="docs/img/016-dossier-stat-rank.webp" alt="Dossier - stat rank" width="100%"></a><br><sub><b>016 - Stat rank.</b> Rest the mouse on a stat: rank among all 31, team and film average.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/017-radio-check.webp"><img src="docs/img/017-radio-check.webp" alt="Radio check" width="100%"></a><br><sub><b>017 - Radio check.</b> Click a portrait and the operator answers on the radio, with subtitles.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/018-compare-radar.webp"><img src="docs/img/018-compare-radar.webp" alt="Compare" width="100%"></a><br><sub><b>018 - Compare.</b> Up to three operators side by side with a radar of their stats.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/019-trophy-wall.webp"><img src="docs/img/019-trophy-wall.webp" alt="Trophy Wall" width="100%"></a><br><sub><b>019 - Trophy Wall.</b> The best of the team in your campaign.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/020-in-memoriam.webp"><img src="docs/img/020-in-memoriam.webp" alt="In Memoriam" width="100%"></a><br><sub><b>020 - In Memoriam.</b> Those who did not come back.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Intel</b> · 5</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/021-intel-enemy.webp"><img src="docs/img/021-intel-enemy.webp" alt="Intel - the enemy" width="100%"></a><br><sub><b>021 - The Enemy.</b> What the team learned about the hunter, with a thermal scanner.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/022-intel-field-reports.webp"><img src="docs/img/022-intel-field-reports.webp" alt="Intel - field reports" width="100%"></a><br><sub><b>022 - Field Reports.</b> The four operations and who came home.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/023-intel-armory.webp"><img src="docs/img/023-intel-armory.webp" alt="Intel - armory" width="100%"></a><br><sub><b>023 - Armory.</b> The signature weapons of the films with their real game values.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/024-intel-classified.webp"><img src="docs/img/024-intel-classified.webp" alt="Intel - classified" width="100%"></a><br><sub><b>024 - Classified.</b> A secret file that opens only for the best clients.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/025-intel-ops-map.webp"><img src="docs/img/025-intel-ops-map.webp" alt="Intel - ops map" width="100%"></a><br><sub><b>025 - Ops Map.</b> Arulco live: towns, SAM sites, mines and your people. Click a town of the Queen for a briefing.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Base</b> · 8</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/026-base-setup.webp"><img src="docs/img/026-base-setup.webp" alt="Base - setup" width="100%"></a><br><sub><b>026 - Setup.</b> Site options. The laptop keeps the game's own desktop; a wallpaper is used only after "Set as wallpaper".</sub></td>
+<td width="50%" valign="top"><a href="docs/img/027-base-planner.webp"><img src="docs/img/027-base-planner.webp" alt="Base - squad planner" width="100%"></a><br><sub><b>027 - Squad Planner.</b> Up to six operators: cost, skills you cover, bad blood; three save slots.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/028-base-thermal-hunt.webp"><img src="docs/img/028-base-thermal-hunt.webp" alt="Base - thermal hunt" width="100%"></a><br><sub><b>028 - Thermal Hunt.</b> Mini-game: tag the hunter in heat vision before it fades. Three levels.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/029-base-quiz.webp"><img src="docs/img/029-base-quiz.webp" alt="Base - quiz" width="100%"></a><br><sub><b>029 - Field Test.</b> Ten questions about the four films.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/030-base-timeline.webp"><img src="docs/img/030-base-timeline.webp" alt="Base - timeline" width="100%"></a><br><sub><b>030 - Timeline.</b> 1987, 1990, 2010, 2018 - the operations and their people.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/031-base-comms.webp"><img src="docs/img/031-base-comms.webp" alt="Base - comms" width="100%"></a><br><sub><b>031 - Comms.</b> Radio log of your operators and "Ask HQ".</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/032-base-stats.webp"><img src="docs/img/032-base-stats.webp" alt="Base - stats" width="100%"></a><br><sub><b>032 - Site log.</b> Visits, records, time on the site, most opened files.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/033-base-medals.webp"><img src="docs/img/033-base-medals.webp" alt="Base - medals" width="100%"></a><br><sub><b>033 - Medals.</b> 22 medals for the site and the campaign, with progress bars.</sub></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Base > Tools (20 apps)</b> · 22</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/034-tools-page-1.webp"><img src="docs/img/034-tools-page-1.webp" alt="Tools page 1" width="100%"></a><br><sub><b>034 - Field Tools, page 1.</b></sub></td>
+<td width="50%" valign="top"><a href="docs/img/035-tools-page-2.webp"><img src="docs/img/035-tools-page-2.webp" alt="Tools page 2" width="100%"></a><br><sub><b>035 - Field Tools, page 2.</b></sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/036-tool-gallery.webp"><img src="docs/img/036-tool-gallery.webp" alt="Gallery" width="100%"></a><br><sub><b>036 - Gallery.</b> A slide show of every operator.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/037-tool-dog-tags.webp"><img src="docs/img/037-tool-dog-tags.webp" alt="Dog tags" width="100%"></a><br><sub><b>037 - Dog Tags.</b> Stamped tags of any operator.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/038-tool-briefing.webp"><img src="docs/img/038-tool-briefing.webp" alt="Briefing" width="100%"></a><br><sub><b>038 - Briefing.</b> Pick a town of the Queen and get a suggested squad.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/039-tool-reflex-test.webp"><img src="docs/img/039-tool-reflex-test.webp" alt="Reflex test" width="100%"></a><br><sub><b>039 - Reflex Test.</b> How fast are your hands?</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/040-tool-codebreaker.webp"><img src="docs/img/040-tool-codebreaker.webp" alt="Codebreaker" width="100%"></a><br><sub><b>040 - Codebreaker.</b> Read the hunter's numbers.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/041-tool-memory.webp"><img src="docs/img/041-tool-memory.webp" alt="Memory" width="100%"></a><br><sub><b>041 - Memory.</b> Find the pairs of faces.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/042-tool-payroll.webp"><img src="docs/img/042-tool-payroll.webp" alt="Payroll" width="100%"></a><br><sub><b>042 - Payroll.</b> Who you pay and how long the contracts run.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/043-tool-field-charts.webp"><img src="docs/img/043-tool-field-charts.webp" alt="Field charts" width="100%"></a><br><sub><b>043 - Field Charts.</b> Kills, battles, days and wounds as bar charts.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/044-tool-voice-board.webp"><img src="docs/img/044-tool-voice-board.webp" alt="Voice board" width="100%"></a><br><sub><b>044 - Voice Board.</b> Hear every operator's lines.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/045-tool-atmosphere.webp"><img src="docs/img/045-tool-atmosphere.webp" alt="Atmosphere" width="100%"></a><br><sub><b>045 - Atmosphere.</b> Jungle, night or rain ambience; thermal, night vision or ultraviolet colours.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/046-tool-town-loyalty.webp"><img src="docs/img/046-tool-town-loyalty.webp" alt="Town loyalty" width="100%"></a><br><sub><b>046 - Town Loyalty.</b> How every town of Arulco feels about you.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/047-tool-mine-report.webp"><img src="docs/img/047-tool-mine-report.webp" alt="Mine report" width="100%"></a><br><sub><b>047 - Mine Report.</b> Who holds the mines and what they pay.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/048-tool-hunters-moon.webp"><img src="docs/img/048-tool-hunters-moon.webp" alt="Hunter's moon" width="100%"></a><br><sub><b>048 - Hunter's Moon.</b> The moon phase for night raids, four weeks ahead.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/049-tool-callsign.webp"><img src="docs/img/049-tool-callsign.webp" alt="Callsign" width="100%"></a><br><sub><b>049 - Callsign.</b> Get your own callsign - headquarters uses it on the radio.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/050-tool-morse-radio.webp"><img src="docs/img/050-tool-morse-radio.webp" alt="Morse radio" width="100%"></a><br><sub><b>050 - Morse Radio.</b> Operators' names sent in Morse code.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/051-tool-film-teams.webp"><img src="docs/img/051-tool-film-teams.webp" alt="Film teams" width="100%"></a><br><sub><b>051 - Film Teams.</b> The four films compared stat by stat.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/052-tool-shooting-range.webp"><img src="docs/img/052-tool-shooting-range.webp" alt="Shooting range" width="100%"></a><br><sub><b>052 - Shooting Range.</b> Five shots; the sight moves with your breath.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/053-tool-minefield.webp"><img src="docs/img/053-tool-minefield.webp" alt="Minefield" width="100%"></a><br><sub><b>053 - Minefield.</b> Clear the field without stepping on a mine.</sub></td>
+</tr>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/054-tool-lynchs-cards.webp"><img src="docs/img/054-tool-lynchs-cards.webp" alt="Lynch's cards" width="100%"></a><br><sub><b>054 - Lynch's Cards.</b> Higher or lower with the card sharp of the Loonies.</sub></td>
+<td width="50%" valign="top"><a href="docs/img/055-tool-fatigue-watch.webp"><img src="docs/img/055-tool-fatigue-watch.webp" alt="Fatigue watch" width="100%"></a><br><sub><b>055 - Fatigue Watch.</b> Who needs sleep before the next fight.</sub></td>
+</tr>
+</table>
+
+</details>
+
+<details>
+<summary><b>Laptop</b> · 1</summary>
+
+<table>
+<tr>
+<td width="50%" valign="top"><a href="docs/img/056-laptop-wallpaper-option.webp"><img src="docs/img/056-laptop-wallpaper-option.webp" alt="Optional wallpaper" width="100%"></a><br><sub><b>056 - Optional wallpaper.</b> Off by default - the laptop keeps the game's desktop until you pick a picture on Base > Setup.</sub></td>
+<td width="50%"></td>
+</tr>
+</table>
+
+</details>
+
+## Community
+
+- [Code of Conduct](CODE_OF_CONDUCT.md)
+- [Contributing](CONTRIBUTING.md)
+- [Security policy](SECURITY.md)
+
+## License
+
+Made by **Krainer**. The mod is free and released under [CC BY-NC-SA 4.0](LICENSE). Jagged Alliance 2 and the Predator films belong to their respective owners; this is a non-commercial fan work.
