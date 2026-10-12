@@ -55,7 +55,8 @@
 - **Predators 2010**: Royce, Isabelle, Edwin, Stans, Noland, Cuchillo, Nikolai, Hanzo, Mombasa
 - **The Predator 2018**: Quinn, Nebraska, Baxley, Coyle, Lynch, Nettles, Casey, Traeger
 
-## Predator 1987
+<details>
+<summary><b>Predator 1987</b> · 7 operators · Val Verde</summary>
 
 <img src="docs/gif/header-1987.gif" alt="1987 - Val Verde" width="100%">
 
@@ -73,11 +74,20 @@
 
 </div>
 
-## Predator 1990
+</details>
+
+<details>
+<summary><b>Predator 1990</b> · 7 operators · Los Angeles</summary>
 
 <img src="docs/gif/header-1990.gif" alt="1990 - Los Angeles" width="100%">
 
 <div align="center">
+
+| ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 7 | **Harrigan**<br><sub>Mike Harrigan</sub> | LAPD lieutenant. Stubborn, fearless leader | 8 | $7,000 | Squadleader, Gunslinger, Athletics | SPAS-12 |
+| 8 | **Leona**<br><sub>Leona Cantrell</sub> | LAPD detective. Tough, fast with a SMG | 5 | $3,200 | Auto Weapons, Gunslinger, Athletics | HK MP5KA4 |
+| 9 | **Danny**<br><sub>Danny Archuleta</sub> | LAPD detective. Harrigan's oldest friend | 4 | <div align="center">
 
 | ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -89,13 +99,64 @@
 | 12 | **Willie**<br><sub>King Willie</sub> | Gang boss and mystic. Sees what others miss | 4 | $2,500 | Squadleader, Melee, Covert Ops | Barracuda |
 | 13 | **Heinemann**<br><sub>Phil Heinemann</sub> | LAPD deputy chief. Commander and organiser | 4 | $2,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
 
+</div>,400 | Gunslinger, Scouting, Athletics | Beretta 92F |
+| 10 | **Lambert**<br><sub>Jerry Lambert</sub> | LAPD detective. Cocky newcomer with a shotgun | 5 | <div align="center">
+
+| ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 7 | **Harrigan**<br><sub>Mike Harrigan</sub> | LAPD lieutenant. Stubborn, fearless leader | 8 | $7,000 | Squadleader, Gunslinger, Athletics | SPAS-12 |
+| 8 | **Leona**<br><sub>Leona Cantrell</sub> | LAPD detective. Tough, fast with a SMG | 5 | $3,200 | Auto Weapons, Gunslinger, Athletics | HK MP5KA4 |
+| 9 | **Danny**<br><sub>Danny Archuleta</sub> | LAPD detective. Harrigan's oldest friend | 4 | $2,400 | Gunslinger, Scouting, Athletics | Beretta 92F |
+| 10 | **Lambert**<br><sub>Jerry Lambert</sub> | LAPD detective. Cocky newcomer with a shotgun | 5 | $2,800 | Ranger, Bodybuilding, Melee | Remington M870 |
+| 11 | **Keyes**<br><sub>Peter Keyes</sub> | Federal agent. Head of a special task force | 6 | $5,000 | Squadleader, Technician, Night Ops | HK MP5KA4 |
+| 12 | **Willie**<br><sub>King Willie</sub> | Gang boss and mystic. Sees what others miss | 4 | $2,500 | Squadleader, Melee, Covert Ops | Barracuda |
+| 13 | **Heinemann**<br><sub>Phil Heinemann</sub> | LAPD deputy chief. Commander and organiser | 4 | $2,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
+
+</div>,800 | Ranger, Bodybuilding, Melee | Remington M870 |
+| 11 | **Keyes**<br><sub>Peter Keyes</sub> | Federal agent. Head of a special task force | 6 | $5,000 | Squadleader, Technician, Night Ops | HK MP5KA4 |
+| 12 | **Willie**<br><sub>King Willie</sub> | Gang boss and mystic. Sees what others miss | 4 | <div align="center">
+
+| ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 7 | **Harrigan**<br><sub>Mike Harrigan</sub> | LAPD lieutenant. Stubborn, fearless leader | 8 | $7,000 | Squadleader, Gunslinger, Athletics | SPAS-12 |
+| 8 | **Leona**<br><sub>Leona Cantrell</sub> | LAPD detective. Tough, fast with a SMG | 5 | $3,200 | Auto Weapons, Gunslinger, Athletics | HK MP5KA4 |
+| 9 | **Danny**<br><sub>Danny Archuleta</sub> | LAPD detective. Harrigan's oldest friend | 4 | $2,400 | Gunslinger, Scouting, Athletics | Beretta 92F |
+| 10 | **Lambert**<br><sub>Jerry Lambert</sub> | LAPD detective. Cocky newcomer with a shotgun | 5 | $2,800 | Ranger, Bodybuilding, Melee | Remington M870 |
+| 11 | **Keyes**<br><sub>Peter Keyes</sub> | Federal agent. Head of a special task force | 6 | $5,000 | Squadleader, Technician, Night Ops | HK MP5KA4 |
+| 12 | **Willie**<br><sub>King Willie</sub> | Gang boss and mystic. Sees what others miss | 4 | $2,500 | Squadleader, Melee, Covert Ops | Barracuda |
+| 13 | **Heinemann**<br><sub>Phil Heinemann</sub> | LAPD deputy chief. Commander and organiser | 4 | $2,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
+
+</div>,500 | Squadleader, Melee, Covert Ops | Barracuda |
+| 13 | **Heinemann**<br><sub>Phil Heinemann</sub> | LAPD deputy chief. Commander and organiser | 4 | <div align="center">
+
+| ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 7 | **Harrigan**<br><sub>Mike Harrigan</sub> | LAPD lieutenant. Stubborn, fearless leader | 8 | $7,000 | Squadleader, Gunslinger, Athletics | SPAS-12 |
+| 8 | **Leona**<br><sub>Leona Cantrell</sub> | LAPD detective. Tough, fast with a SMG | 5 | $3,200 | Auto Weapons, Gunslinger, Athletics | HK MP5KA4 |
+| 9 | **Danny**<br><sub>Danny Archuleta</sub> | LAPD detective. Harrigan's oldest friend | 4 | $2,400 | Gunslinger, Scouting, Athletics | Beretta 92F |
+| 10 | **Lambert**<br><sub>Jerry Lambert</sub> | LAPD detective. Cocky newcomer with a shotgun | 5 | $2,800 | Ranger, Bodybuilding, Melee | Remington M870 |
+| 11 | **Keyes**<br><sub>Peter Keyes</sub> | Federal agent. Head of a special task force | 6 | $5,000 | Squadleader, Technician, Night Ops | HK MP5KA4 |
+| 12 | **Willie**<br><sub>King Willie</sub> | Gang boss and mystic. Sees what others miss | 4 | $2,500 | Squadleader, Melee, Covert Ops | Barracuda |
+| 13 | **Heinemann**<br><sub>Phil Heinemann</sub> | LAPD deputy chief. Commander and organiser | 4 | $2,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
+
+</div>,600 | Squadleader, Radio Operator, Gunslinger | Colt M1911A1 |
+
 </div>
 
-## Predators 2010
+</details>
+
+<details>
+<summary><b>Predators 2010</b> · 9 operators · Game Preserve</summary>
 
 <img src="docs/gif/header-2010.gif" alt="2010 - Game Preserve" width="100%">
 
 <div align="center">
+
+| ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 | **Royce** | Mercenary leader, ex-special forces | 8 | $7,000 | Auto Weapons, Survival, Stealthy | USAS-12 |
+| 15 | **Isabelle** | IDF sniper | 7 | $6,000 | Sniper (expert), Stealthy | Dragunov SVD |
+| 16 | **Edwin** | Doctor | 4 | <div align="center">
 
 | ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -109,9 +170,34 @@
 | 21 | **Hanzo** | Yakuza enforcer, swordsman | 7 | $4,800 | Martial Arts, Melee, Stealthy | Katana |
 | 22 | **Mombasa** | Death squad officer | 7 | $5,000 | Auto Weapons, Athletics, Night Ops | AK-47 |
 
+</div>,800 | Doctor (expert) | Beretta 92F |
+| 17 | **Stans**<br><sub>Walter Stans</sub> | Death row convict | 4 | <img src="docs/gif/header-2010.gif" alt="2010 - Game Preserve" width="100%">,800 | Martial Arts, Melee, Bodybuilding | Beretta 93R |
+| 18 | **Noland**<br><sub>Ronald Noland</sub> | Survivor of earlier hunts | 7 | $4,500 | Ranger, Survival, Stealthy | Ingram M10 |
+| 19 | **Cuchillo** | Cartel enforcer | 5 | <div align="center">
+
+| ID | Name | Role | Lvl | Day rate | Traits | Standard weapon |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| 14 | **Royce** | Mercenary leader, ex-special forces | 8 | $7,000 | Auto Weapons, Survival, Stealthy | USAS-12 |
+| 15 | **Isabelle** | IDF sniper | 7 | $6,000 | Sniper (expert), Stealthy | Dragunov SVD |
+| 16 | **Edwin** | Doctor | 4 | $2,800 | Doctor (expert) | Beretta 92F |
+| 17 | **Stans**<br><sub>Walter Stans</sub> | Death row convict | 4 | $1,800 | Martial Arts, Melee, Bodybuilding | Beretta 93R |
+| 18 | **Noland**<br><sub>Ronald Noland</sub> | Survivor of earlier hunts | 7 | $4,500 | Ranger, Survival, Stealthy | Ingram M10 |
+| 19 | **Cuchillo** | Cartel enforcer | 5 | $2,800 | Auto Weapons, Melee, Throwing | Uzi |
+| 20 | **Nikolai** | Spetsnaz soldier, heavy weapons | 7 | $5,200 | Heavy Weapons, Auto Weapons, Bodybuilding | PKM |
+| 21 | **Hanzo** | Yakuza enforcer, swordsman | 7 | $4,800 | Martial Arts, Melee, Stealthy | Katana |
+| 22 | **Mombasa** | Death squad officer | 7 | $5,000 | Auto Weapons, Athletics, Night Ops | AK-47 |
+
+</div>,800 | Auto Weapons, Melee, Throwing | Uzi |
+| 20 | **Nikolai** | Spetsnaz soldier, heavy weapons | 7 | $5,200 | Heavy Weapons, Auto Weapons, Bodybuilding | PKM |
+| 21 | **Hanzo** | Yakuza enforcer, swordsman | 7 | $4,800 | Martial Arts, Melee, Stealthy | Katana |
+| 22 | **Mombasa** | Death squad officer | 7 | $5,000 | Auto Weapons, Athletics, Night Ops | AK-47 |
+
 </div>
 
-## The Predator 2018
+</details>
+
+<details>
+<summary><b>The Predator 2018</b> · 8 operators · The Loonies</summary>
 
 <img src="docs/gif/header-2018.gif" alt="2018 - The Loonies" width="100%">
 
@@ -130,7 +216,12 @@
 
 </div>
 
+</details>
+
 ## Stats
+
+<details>
+<summary><b>Stats</b> · all 31 mercenaries · 11 stats</summary>
 
 <div align="center">
 
@@ -171,6 +262,8 @@
 </div>
 
 Values of 90+ are in bold.
+
+</details>
 
 Lvl experience level, HLT health, AGI agility, DEX dexterity, STR strength, WIS wisdom, LDR leadership, MRK marksmanship, MEC mechanical, EXP explosives, MED medical.
 
