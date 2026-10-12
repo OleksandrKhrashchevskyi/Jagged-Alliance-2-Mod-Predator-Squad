@@ -4,6 +4,29 @@
 
 # The Predator Team - mercenaries
 
+<p align="center">
+  <a href="../../releases/latest"><img src="https://img.shields.io/badge/Download-latest_release-2ea44f?style=for-the-badge" alt="Download the latest release"></a>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/JA2-v1.13-c9a227?style=flat-square" alt="Jagged Alliance 2 v1.13">
+  <img src="https://img.shields.io/badge/mercenaries-31-8b0000?style=flat-square" alt="31 mercenaries">
+  <img src="https://img.shields.io/badge/films-1987_·_1990_·_2010_·_2018-555?style=flat-square" alt="Films: 1987, 1990, 2010, 2018">
+  <img src="https://img.shields.io/badge/price-free_forever-2ea44f?style=flat-square" alt="Free forever">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-lightgrey?style=flat-square" alt="License: CC BY-NC-SA 4.0"></a>
+  <a href="https://discord.com/invite/Ku2H9Hf"><img src="https://img.shields.io/badge/Discord-join-5865F2?style=flat-square&logo=discord&logoColor=white" alt="Discord"></a>
+  <a href="../../discussions"><img src="https://img.shields.io/badge/Discussions-ask_%26_share-2ea44f?style=flat-square&logo=github&logoColor=white" alt="GitHub Discussions"></a>
+</p>
+
+<p align="center">
+  <a href="#about-the-mod">About</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#stats">Stats</a> ·
+  <a href="#screenshots">Screenshots</a> ·
+  <a href="#troubleshooting--faq">FAQ</a> ·
+  <a href="#-community">Community</a>
+</p>
+
 31 operators from the four films. Stats are on the JA2 1.13 scale (0-100), the day rate is in dollars. Traits use the 1.13 new trait system.
 
 **It's free.** No price, no ads, no sign-up. *Downloads are strictly for true fans only* — if you can still quote Dutch and know which Loonie hates Traeger, you qualify. 😏
@@ -28,6 +51,42 @@
 > [!IMPORTANT]
 > **Back up your game before installing the mod!** The mod is unpacked straight into your game folder: files with the same names are overwritten, and the game's settings may need changes in `Ja2.ini`. The stock `Data-1.13` is not touched, but things can always go wrong. Before you start, copy your whole game folder (at least `Data-1.13`, `SavedGames` and `Ja2.ini`) somewhere safe — just in case. Saves from older versions of the mod do not work in newer ones.
 
+## 📑 Contents
+
+<table align="center">
+<tr>
+<th>📖 About</th>
+<th>🎖️ The team</th>
+<th>🆘 Help &amp; info</th>
+</tr>
+<tr valign="top">
+<td>
+
+[About the mod](#about-the-mod)<br>
+[▶️ Getting started](#getting-started)<br>
+[🔐 Verify the download](#verify-the-download-sha-256)<br>
+[✅ Compatibility](#-compatibility)
+
+</td>
+<td>
+
+[By film](#by-film)<br>
+[Stats](#stats)<br>
+[Screenshots](#screenshots)
+
+</td>
+<td>
+
+[❓ Troubleshooting / FAQ](#troubleshooting--faq)<br>
+[🐞 Reporting bugs](#reporting-bugs)<br>
+[💬 Community](#-community)<br>
+[📝 Changelog](#changelog)<br>
+[🏅 Credits](#credits) · [License](#license) · [Disclaimer](#disclaimer)
+
+</td>
+</tr>
+</table>
+
 ## About the mod
 
 **The Predator Team** replaces A.I.M. and M.E.R.C. with one mercenary outfit: 31 operators from *Predator 1987*, *Predator 1990*, *Predators 2010* and *The Predator 2018*. All standard mercs are gone; the story of Arulco works as usual.
@@ -40,13 +99,47 @@
 - 🔥 **Hunter View**: look at the whole site through heat vision. And keep an eye on the screen - something cloaked crosses it now and then.
 - 🧩 **Safe install**: the mod runs from its own `Data-Predator` folder with its own `ja2pt.exe`; the stock `Data-1.13` is not touched.
 
-## Installation
+## Getting started
 
-1. You need **Jagged Alliance 2 v1.13**. Make a **copy** of your game folder first.
-2. Download `JA2-PredatorTeam.zip` from [Releases](../../releases) and unpack it into the game folder.
-3. Start the game with **`ja2pt.exe`** and begin a **new game**. Saves from older versions of the mod are not compatible.
+<p align="center"><img src="docs/gif/getting-started.gif" alt="Getting started: download, scan, back up, unpack, run ja2pt.exe" width="100%"></p>
+
+You need **Jagged Alliance 2 v1.13**.
+
+1. [Download](../../releases/latest) `JA2-PredatorTeam.zip` from the latest release.
+2. **Scan the archive for viruses** (see the links above) and [verify the checksum](#verify-the-download-sha-256).
+3. **Back up your game folder** — at least `Data-1.13`, `SavedGames` and `Ja2.ini`.
+4. Unpack the archive into the game folder (the one that contains `ja2.exe`).
+5. Start the game with **`ja2pt.exe`** and begin a **new game**. Saves from older versions of the mod are not compatible.
 
 `README.txt` in the archive has the details; `voices.txt` and `PredatorTeam_phrases.txt` list the voice files and their lines.
+
+### Verify the download (SHA-256)
+
+Every release lists the SHA-256 checksum of its archive. Download the mod **only from this repository** and compare the checksum before unpacking it.
+In PowerShell, in the folder with the downloaded file:
+
+```powershell
+Get-FileHash .\JA2-PredatorTeam.zip -Algorithm SHA256
+```
+
+or in the Command Prompt:
+
+```bat
+certutil -hashfile JA2-PredatorTeam.zip SHA256
+```
+
+If the value differs from the one in the release notes, **do not use the file** — it was changed by someone else.
+
+## ✅ Compatibility
+
+| Game | Status |
+|---|---|
+| **Jagged Alliance 2 v1.13** | ✅ Supported — the mod is made and tested for it. |
+| **Jagged Alliance 2: Unfinished Business** | ❔ Not tested yet. |
+| Other mods (Arulco Revisited, AIMNAS, SDO, Urban Chaos, Wildfire and others) | ❔ Not tested yet — the mod replaces A.I.M. and M.E.R.C., so mods that change the mercs or the laptop will likely conflict. |
+| Original JA2 (without v1.13), JA2 Stracciatella | ❌ Not supported — the mod needs v1.13. |
+
+Saves from older versions of the mod do not work in newer ones — start a new game after updating. Tried it with another build or mod? Tell us in an [issue](../../issues) — whether it works or not, it helps.
 
 ## By film
 
@@ -225,39 +318,44 @@
 
 <div align="center">
 
-| ID | Name | Film | Lvl | HLT | AGI | DEX | STR | WIS | LDR | MRK | MEC | EXP | MED |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-| 0 | **Dutch** | 1987 | 9 | **95** | 85 | 85 | **95** | 88 | **95** | **90** | 55 | 75 | 45 |
-| 1 | **Mac** | 1987 | 7 | **90** | 75 | 80 | **90** | 70 | 55 | **90** | 40 | 50 | 30 |
-| 2 | **Blain** | 1987 | 7 | **96** | 70 | 70 | **98** | 60 | 45 | 85 | 40 | 50 | 20 |
-| 3 | **Billy** | 1987 | 8 | **90** | **92** | 85 | 85 | **90** | 45 | 85 | 35 | 40 | 45 |
-| 4 | **Poncho** | 1987 | 7 | 88 | 78 | 80 | 82 | 72 | 50 | 82 | 50 | 85 | 35 |
-| 5 | **Hawkins** | 1987 | 6 | 78 | 75 | 82 | 68 | 80 | 40 | 78 | 75 | 45 | 45 |
-| 6 | **Dillon** | 1987 | 7 | 88 | 78 | 80 | 85 | 85 | 80 | 85 | 45 | 55 | 30 |
-| 7 | **Harrigan** | 1990 | 8 | **92** | 82 | 84 | 82 | 85 | 85 | 88 | 50 | 55 | 40 |
-| 8 | **Leona** | 1990 | 5 | 78 | 80 | 78 | 60 | 75 | 55 | 75 | 35 | 30 | 40 |
-| 9 | **Danny** | 1990 | 4 | 72 | 80 | 80 | 62 | 70 | 45 | 76 | 40 | 30 | 35 |
-| 10 | **Lambert** | 1990 | 5 | 82 | 72 | 70 | 80 | 55 | 40 | 74 | 35 | 30 | 25 |
-| 11 | **Keyes** | 1990 | 6 | 76 | 70 | 76 | 68 | **92** | 80 | 76 | 75 | 50 | 50 |
-| 12 | **Willie** | 1990 | 4 | 65 | 55 | 65 | 55 | **90** | 80 | 55 | 30 | 35 | 50 |
-| 13 | **Heinemann** | 1990 | 4 | 72 | 58 | 68 | 66 | 76 | 78 | 70 | 30 | 30 | 30 |
-| 14 | **Royce** | 2010 | 8 | **90** | 86 | 84 | 82 | **92** | 82 | 88 | 50 | 60 | 45 |
-| 15 | **Isabelle** | 2010 | 7 | 82 | 85 | 88 | 62 | 86 | 60 | **96** | 40 | 40 | 45 |
-| 16 | **Edwin** | 2010 | 4 | 60 | 65 | 85 | 50 | **90** | 30 | 45 | 40 | 25 | **92** |
-| 17 | **Stans** | 2010 | 4 | 85 | 75 | 70 | 85 | 40 | 20 | 65 | 30 | 30 | 10 |
-| 18 | **Noland** | 2010 | 7 | 75 | 70 | 78 | 70 | **92** | 45 | 82 | 70 | 65 | 50 |
-| 19 | **Cuchillo** | 2010 | 5 | 82 | 82 | 84 | 76 | 60 | 30 | 78 | 30 | 35 | 15 |
-| 20 | **Nikolai** | 2010 | 7 | **96** | 66 | 72 | **96** | 65 | 55 | 86 | 50 | 70 | 25 |
-| 21 | **Hanzo** | 2010 | 7 | 86 | **95** | **92** | 76 | 85 | 40 | 70 | 30 | 25 | 30 |
-| 22 | **Mombasa** | 2010 | 7 | **90** | 78 | 80 | 88 | 72 | 70 | 86 | 40 | 55 | 25 |
-| 23 | **Quinn** | 2018 | 8 | **90** | 86 | 88 | 82 | **90** | 80 | **97** | 40 | 55 | 45 |
-| 24 | **Nebraska** | 2018 | 7 | **92** | 82 | 80 | 86 | 75 | 55 | 86 | 40 | 45 | 35 |
-| 25 | **Baxley** | 2018 | 6 | 88 | 72 | 76 | 84 | 62 | 35 | 84 | 40 | 50 | 20 |
-| 26 | **Coyle** | 2018 | 6 | 82 | 80 | 82 | 72 | 70 | 40 | 80 | 40 | 40 | 30 |
-| 27 | **Lynch** | 2018 | 6 | 78 | 82 | 88 | 66 | 78 | 40 | 76 | 75 | 80 | 35 |
-| 28 | **Nettles** | 2018 | 5 | 84 | 74 | 78 | 80 | 66 | 35 | 78 | 70 | 40 | 25 |
-| 29 | **Casey** | 2018 | 4 | 70 | 76 | 78 | 55 | **95** | 50 | 65 | 55 | 30 | 75 |
-| 30 | **Traeger** | 2018 | 6 | 78 | 70 | 78 | 68 | **90** | 85 | 76 | 45 | 40 | 35 |
+<table>
+<thead>
+<tr><th align="center">ID</th><th align="center">Name</th><th align="center">Film</th><th align="center">Lvl</th><th align="center">HLT</th><th align="center">AGI</th><th align="center">DEX</th><th align="center">STR</th><th align="center">WIS</th><th align="center">LDR</th><th align="center">MRK</th><th align="center">MEC</th><th align="center">EXP</th><th align="center">MED</th></tr>
+</thead>
+<tbody>
+<tr><td align="center">0</td><td align="center"><b>Dutch</b></td><td align="center" rowspan="7"><b>1987</b></td><td align="center">9</td><td align="center"><b>95</b></td><td align="center">85</td><td align="center">85</td><td align="center"><b>95</b></td><td align="center">88</td><td align="center"><b>95</b></td><td align="center"><b>90</b></td><td align="center">55</td><td align="center">75</td><td align="center">45</td></tr>
+<tr><td align="center">1</td><td align="center"><b>Mac</b></td><td align="center">7</td><td align="center"><b>90</b></td><td align="center">75</td><td align="center">80</td><td align="center"><b>90</b></td><td align="center">70</td><td align="center">55</td><td align="center"><b>90</b></td><td align="center">40</td><td align="center">50</td><td align="center">30</td></tr>
+<tr><td align="center">2</td><td align="center"><b>Blain</b></td><td align="center">7</td><td align="center"><b>96</b></td><td align="center">70</td><td align="center">70</td><td align="center"><b>98</b></td><td align="center">60</td><td align="center">45</td><td align="center">85</td><td align="center">40</td><td align="center">50</td><td align="center">20</td></tr>
+<tr><td align="center">3</td><td align="center"><b>Billy</b></td><td align="center">8</td><td align="center"><b>90</b></td><td align="center"><b>92</b></td><td align="center">85</td><td align="center">85</td><td align="center"><b>90</b></td><td align="center">45</td><td align="center">85</td><td align="center">35</td><td align="center">40</td><td align="center">45</td></tr>
+<tr><td align="center">4</td><td align="center"><b>Poncho</b></td><td align="center">7</td><td align="center">88</td><td align="center">78</td><td align="center">80</td><td align="center">82</td><td align="center">72</td><td align="center">50</td><td align="center">82</td><td align="center">50</td><td align="center">85</td><td align="center">35</td></tr>
+<tr><td align="center">5</td><td align="center"><b>Hawkins</b></td><td align="center">6</td><td align="center">78</td><td align="center">75</td><td align="center">82</td><td align="center">68</td><td align="center">80</td><td align="center">40</td><td align="center">78</td><td align="center">75</td><td align="center">45</td><td align="center">45</td></tr>
+<tr><td align="center">6</td><td align="center"><b>Dillon</b></td><td align="center">7</td><td align="center">88</td><td align="center">78</td><td align="center">80</td><td align="center">85</td><td align="center">85</td><td align="center">80</td><td align="center">85</td><td align="center">45</td><td align="center">55</td><td align="center">30</td></tr>
+<tr><td align="center">7</td><td align="center"><b>Harrigan</b></td><td align="center" rowspan="7"><b>1990</b></td><td align="center">8</td><td align="center"><b>92</b></td><td align="center">82</td><td align="center">84</td><td align="center">82</td><td align="center">85</td><td align="center">85</td><td align="center">88</td><td align="center">50</td><td align="center">55</td><td align="center">40</td></tr>
+<tr><td align="center">8</td><td align="center"><b>Leona</b></td><td align="center">5</td><td align="center">78</td><td align="center">80</td><td align="center">78</td><td align="center">60</td><td align="center">75</td><td align="center">55</td><td align="center">75</td><td align="center">35</td><td align="center">30</td><td align="center">40</td></tr>
+<tr><td align="center">9</td><td align="center"><b>Danny</b></td><td align="center">4</td><td align="center">72</td><td align="center">80</td><td align="center">80</td><td align="center">62</td><td align="center">70</td><td align="center">45</td><td align="center">76</td><td align="center">40</td><td align="center">30</td><td align="center">35</td></tr>
+<tr><td align="center">10</td><td align="center"><b>Lambert</b></td><td align="center">5</td><td align="center">82</td><td align="center">72</td><td align="center">70</td><td align="center">80</td><td align="center">55</td><td align="center">40</td><td align="center">74</td><td align="center">35</td><td align="center">30</td><td align="center">25</td></tr>
+<tr><td align="center">11</td><td align="center"><b>Keyes</b></td><td align="center">6</td><td align="center">76</td><td align="center">70</td><td align="center">76</td><td align="center">68</td><td align="center"><b>92</b></td><td align="center">80</td><td align="center">76</td><td align="center">75</td><td align="center">50</td><td align="center">50</td></tr>
+<tr><td align="center">12</td><td align="center"><b>Willie</b></td><td align="center">4</td><td align="center">65</td><td align="center">55</td><td align="center">65</td><td align="center">55</td><td align="center"><b>90</b></td><td align="center">80</td><td align="center">55</td><td align="center">30</td><td align="center">35</td><td align="center">50</td></tr>
+<tr><td align="center">13</td><td align="center"><b>Heinemann</b></td><td align="center">4</td><td align="center">72</td><td align="center">58</td><td align="center">68</td><td align="center">66</td><td align="center">76</td><td align="center">78</td><td align="center">70</td><td align="center">30</td><td align="center">30</td><td align="center">30</td></tr>
+<tr><td align="center">14</td><td align="center"><b>Royce</b></td><td align="center" rowspan="9"><b>2010</b></td><td align="center">8</td><td align="center"><b>90</b></td><td align="center">86</td><td align="center">84</td><td align="center">82</td><td align="center"><b>92</b></td><td align="center">82</td><td align="center">88</td><td align="center">50</td><td align="center">60</td><td align="center">45</td></tr>
+<tr><td align="center">15</td><td align="center"><b>Isabelle</b></td><td align="center">7</td><td align="center">82</td><td align="center">85</td><td align="center">88</td><td align="center">62</td><td align="center">86</td><td align="center">60</td><td align="center"><b>96</b></td><td align="center">40</td><td align="center">40</td><td align="center">45</td></tr>
+<tr><td align="center">16</td><td align="center"><b>Edwin</b></td><td align="center">4</td><td align="center">60</td><td align="center">65</td><td align="center">85</td><td align="center">50</td><td align="center"><b>90</b></td><td align="center">30</td><td align="center">45</td><td align="center">40</td><td align="center">25</td><td align="center"><b>92</b></td></tr>
+<tr><td align="center">17</td><td align="center"><b>Stans</b></td><td align="center">4</td><td align="center">85</td><td align="center">75</td><td align="center">70</td><td align="center">85</td><td align="center">40</td><td align="center">20</td><td align="center">65</td><td align="center">30</td><td align="center">30</td><td align="center">10</td></tr>
+<tr><td align="center">18</td><td align="center"><b>Noland</b></td><td align="center">7</td><td align="center">75</td><td align="center">70</td><td align="center">78</td><td align="center">70</td><td align="center"><b>92</b></td><td align="center">45</td><td align="center">82</td><td align="center">70</td><td align="center">65</td><td align="center">50</td></tr>
+<tr><td align="center">19</td><td align="center"><b>Cuchillo</b></td><td align="center">5</td><td align="center">82</td><td align="center">82</td><td align="center">84</td><td align="center">76</td><td align="center">60</td><td align="center">30</td><td align="center">78</td><td align="center">30</td><td align="center">35</td><td align="center">15</td></tr>
+<tr><td align="center">20</td><td align="center"><b>Nikolai</b></td><td align="center">7</td><td align="center"><b>96</b></td><td align="center">66</td><td align="center">72</td><td align="center"><b>96</b></td><td align="center">65</td><td align="center">55</td><td align="center">86</td><td align="center">50</td><td align="center">70</td><td align="center">25</td></tr>
+<tr><td align="center">21</td><td align="center"><b>Hanzo</b></td><td align="center">7</td><td align="center">86</td><td align="center"><b>95</b></td><td align="center"><b>92</b></td><td align="center">76</td><td align="center">85</td><td align="center">40</td><td align="center">70</td><td align="center">30</td><td align="center">25</td><td align="center">30</td></tr>
+<tr><td align="center">22</td><td align="center"><b>Mombasa</b></td><td align="center">7</td><td align="center"><b>90</b></td><td align="center">78</td><td align="center">80</td><td align="center">88</td><td align="center">72</td><td align="center">70</td><td align="center">86</td><td align="center">40</td><td align="center">55</td><td align="center">25</td></tr>
+<tr><td align="center">23</td><td align="center"><b>Quinn</b></td><td align="center" rowspan="8"><b>2018</b></td><td align="center">8</td><td align="center"><b>90</b></td><td align="center">86</td><td align="center">88</td><td align="center">82</td><td align="center"><b>90</b></td><td align="center">80</td><td align="center"><b>97</b></td><td align="center">40</td><td align="center">55</td><td align="center">45</td></tr>
+<tr><td align="center">24</td><td align="center"><b>Nebraska</b></td><td align="center">7</td><td align="center"><b>92</b></td><td align="center">82</td><td align="center">80</td><td align="center">86</td><td align="center">75</td><td align="center">55</td><td align="center">86</td><td align="center">40</td><td align="center">45</td><td align="center">35</td></tr>
+<tr><td align="center">25</td><td align="center"><b>Baxley</b></td><td align="center">6</td><td align="center">88</td><td align="center">72</td><td align="center">76</td><td align="center">84</td><td align="center">62</td><td align="center">35</td><td align="center">84</td><td align="center">40</td><td align="center">50</td><td align="center">20</td></tr>
+<tr><td align="center">26</td><td align="center"><b>Coyle</b></td><td align="center">6</td><td align="center">82</td><td align="center">80</td><td align="center">82</td><td align="center">72</td><td align="center">70</td><td align="center">40</td><td align="center">80</td><td align="center">40</td><td align="center">40</td><td align="center">30</td></tr>
+<tr><td align="center">27</td><td align="center"><b>Lynch</b></td><td align="center">6</td><td align="center">78</td><td align="center">82</td><td align="center">88</td><td align="center">66</td><td align="center">78</td><td align="center">40</td><td align="center">76</td><td align="center">75</td><td align="center">80</td><td align="center">35</td></tr>
+<tr><td align="center">28</td><td align="center"><b>Nettles</b></td><td align="center">5</td><td align="center">84</td><td align="center">74</td><td align="center">78</td><td align="center">80</td><td align="center">66</td><td align="center">35</td><td align="center">78</td><td align="center">70</td><td align="center">40</td><td align="center">25</td></tr>
+<tr><td align="center">29</td><td align="center"><b>Casey</b></td><td align="center">4</td><td align="center">70</td><td align="center">76</td><td align="center">78</td><td align="center">55</td><td align="center"><b>95</b></td><td align="center">50</td><td align="center">65</td><td align="center">55</td><td align="center">30</td><td align="center">75</td></tr>
+<tr><td align="center">30</td><td align="center"><b>Traeger</b></td><td align="center">6</td><td align="center">78</td><td align="center">70</td><td align="center">78</td><td align="center">68</td><td align="center"><b>90</b></td><td align="center">85</td><td align="center">76</td><td align="center">45</td><td align="center">40</td><td align="center">35</td></tr>
+</tbody>
+</table>
 
 </div>
 
@@ -459,6 +557,31 @@ Lvl experience level, HLT health, AGI agility, DEX dexterity, STR strength, WIS 
 
 </details>
 
+## Troubleshooting / FAQ
+
+**Windows SmartScreen says "Windows protected your PC" when I start `ja2pt.exe`.**
+Windows shows this for new programs downloaded from the internet that it does not know yet. Check the archive with the scanners and the SHA-256 checksum above, then press *More info* → *Run anyway*.
+
+**I see the standard A.I.M. and M.E.R.C. mercs, not The Predator Team.**
+Start the game with **`ja2pt.exe`**, not the stock `ja2.exe`, and begin a **new game**. The mod runs from its own `Data-Predator` folder; `ja2.exe` still starts the stock 1.13 game.
+
+**My save does not load after updating the mod.**
+Saves from older versions of the mod are not compatible with newer ones. Start a new game, or go back to the version the save was made with.
+
+**How do I go back to the stock game?**
+Start the game with `ja2.exe` — the stock `Data-1.13` is not touched by the mod. To remove the mod completely, restore the backup copy of your game folder you made before installing.
+
+## Reporting bugs
+
+Found a bug or have an idea? Open an [issue](../../issues) and include:
+
+- the mod version (the name of the release archive) and your game version (the 1.13 build from `JA2_113-Version.txt`, and any other mods you use);
+- whether you started the game with `ja2pt.exe` or with the stock `ja2.exe`;
+- what you did, what you expected and what happened instead;
+- a screenshot, and the save game if the problem is with one (zip it if it is large).
+
+Please check the [open issues](../../issues) first — maybe it is already reported. More in [Contributing](CONTRIBUTING.md).
+
 ## 💬 Community
 
 <p align="center"><img src="docs/gif/community.gif" alt="Community: The Bear's Pit, Discord, Facebook, GitHub Discussions" width="100%"></p>
@@ -481,6 +604,24 @@ Questions, ideas, mods and talk about Jagged Alliance 2 — come and join the fa
 
 Before you post, read the [Code of Conduct](CODE_OF_CONDUCT.md). Want to help? See [Contributing](CONTRIBUTING.md). Found a security problem? See the [Security policy](SECURITY.md).
 
+## Changelog
+
+What's new in each version is listed on the [Releases](../../releases) page.
+
+## Credits
+
+<p align="center"><img src="docs/gif/credits.gif" alt="Credits: made by fans, for fans" width="100%"></p>
+
+Thanks to the whole **Jagged Alliance 2** fan community — the modders, map makers and players who have kept this game alive for decades, and the **1.13** team whose work makes mods like this possible. This mod is made by fans, for fans.
+
+Created by **Krainer (Oleksandr Khrashchevskyi)** — [`oleksandr1024`](https://discord.com/users/660456590364901387) on Discord. Thanks to the admins of the Discord server — [`kitty624`](https://discord.com/users/485597085496901633), [`papa_bear2842`](https://discord.com/users/348550304557563905), [`h_world_37628`](https://discord.com/users/1407768046956839042), [`tais0001`](https://discord.com/users/118450058780868613), [`marco6326`](https://discord.com/users/201429346240430080) and [`asdow5338`](https://discord.com/users/484390622040686592).
+
 ## License
 
 Made by **Krainer**. The mod is free and released under [CC BY-NC-SA 4.0](LICENSE). Jagged Alliance 2 and the Predator films belong to their respective owners; this is a non-commercial fan work.
+
+Copyright (c) 2026 Krainer (Oleksandr Khrashchevskyi)
+
+## Disclaimer
+
+This is a fan-made mod and is not affiliated with the owners of Jagged Alliance 2 or the Predator films. The mod does not include the game; you need your own copy of Jagged Alliance 2 with v1.13. **Installing the mod overwrites files in your game folder — always keep a backup copy of your game folder and saves.** You use it at your own risk.
