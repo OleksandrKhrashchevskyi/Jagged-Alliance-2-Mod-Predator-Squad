@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/gif/banner.gif" alt="The Predator Team: 31 mercenaries for Jagged Alliance 2 v1.13" width="100%">
+  <img src="docs/gif/hero.gif" alt="The Predator Team: 31 mercenaries for Jagged Alliance 2 v1.13" width="100%">
 </p>
 
 # The Predator Team - mercenaries
