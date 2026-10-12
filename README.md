@@ -135,11 +135,11 @@ If the value differs from the one in the release notes, **do not use the file** 
 | Game | Status |
 |---|---|
 | **Jagged Alliance 2 v1.13** | ✅ Supported — the mod is made and tested for it. |
-| **Jagged Alliance 2: Unfinished Business** | ❔ Not tested yet. |
-| Other mods (Arulco Revisited, AIMNAS, SDO, Urban Chaos, Wildfire and others) | ❔ Not tested yet — the mod replaces A.I.M. and M.E.R.C., so mods that change the mercs or the laptop will likely conflict. |
+| **Jagged Alliance 2: Unfinished Business** | ❌ Not supported. |
+| Other mods — **Arulco Revisited**, **AIMNAS**, **SDO**, **Urban Chaos**, **Wildfire** and others | ❌ Not supported — the mod replaces A.I.M. and M.E.R.C. and does not work together with other mods. |
 | Original JA2 (without v1.13), JA2 Stracciatella | ❌ Not supported — the mod needs v1.13. |
 
-Saves from older versions of the mod do not work in newer ones — start a new game after updating. Tried it with another build or mod? Tell us in an [issue](../../issues) — whether it works or not, it helps.
+Saves from older versions of the mod do not work in newer ones — start a new game after updating. The mod works only with a clean **Jagged Alliance 2 v1.13** — do not install it on top of other mods.
 
 ## By film
 
